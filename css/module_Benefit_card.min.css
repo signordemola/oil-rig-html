@@ -1,0 +1,99 @@
+.benefit-card-wrapper {
+  padding-top: 1.0rem;
+  padding-bottom: 1.0rem;
+}
+.benefit-card-inner-wrapper {
+  margin-bottom: 3.052rem;
+}
+.benefit-card-title {
+  margin-bottom: 3.052rem;
+}
+.benefit-card-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.benefit-card-item {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 1.953rem;
+}
+.benefit-card-item > a {
+  cursor: pointer;  
+  text-decoration: none;
+  color: #212f36;
+}
+.benefit-card-item .benefit-card-content {
+  border: 1px solid #d4272e;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+.benefit-card-item h3 {
+  padding: 1.953rem;
+}
+.benefit-card-item hr {
+  border: 0;
+  border-top: 1px solid #d4272e;
+  width: 30%;
+  margin: 0;
+  transition: width 250ms ease-in-out 0s;
+}
+.benefit-card-item:hover hr {
+  width: 100%;
+  transition: ease-out .2s;
+}
+
+.benefit-card-item p.card-text {
+  margin-bottom: auto!important;
+  padding: 1.953rem 1.953rem .953rem 1.953rem;
+}
+.benefit-card-item .threecol-teaser-bottomText {
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  padding: .953rem 1.953rem 1.563rem 1.953rem;
+  color: #d4272e;
+  box-shadow: inset 0 0 0 0 #d4272e;
+  transition: ease-out .2s;
+}
+.benefit-card-item:hover .threecol-teaser-bottomText {
+  box-shadow: inset 0 100px 0 0 #d4272e;
+  color: #fff;
+  background-color: #d4272e;
+}
+.benefit-card-item .ion-ios-arrow-thin-right {
+  position: relative;
+  top: 4px;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: .5rem;
+  font-family: Ionicons,sans-serif;
+  font-size: 150%;
+  transition: transform .3s ease-in-out 0s;
+  line-height: 0;
+}
+.benefit-card-item:hover .ion-ios-arrow-thin-right {
+  transition: transform .3s ease-in-out 0s;
+  transform: translateX(8px) translateY(0) translateZ(0) scaleX(1.25) scaleY(1.25) scaleZ(1);
+}
+
+
+
+@media (min-width: 992px) {
+  .benefit-card-item {
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+
+}
+
+

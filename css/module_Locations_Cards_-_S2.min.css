@@ -1,0 +1,32 @@
+.card .img-fluid {
+  height:auto;
+  max-width:100%
+}
+.hide {
+  display:none
+}
+.locationTabs {
+  list-style:none;
+  margin:0;
+  padding:0
+}
+.locationTabs li {
+  background:#eef2f4;
+  cursor:pointer;
+  display:inline-block;
+  padding:20px
+}
+.locationTabs li.active,
+.tab-wrapper {
+  background:#fff
+}
+.tab-wrapper {
+  border:1px solid #d7dadb;
+  padding:20px;
+  width:100%
+}
+#location_cards.no-bg .tab-wrapper {
+  background:none;
+  border:none;
+  padding:0
+}

@@ -1,0 +1,51 @@
+.homepage .body-container-wrapper .dnd-section>.row-fluid {
+  padding-left:0;
+  padding-right:0
+}
+.homepage .body-container-wrapper {
+  padding-top:0
+}
+.homepage .cst-title-col-grp {
+  padding-left:35.156px;
+  padding-right:35.156px
+}
+.homepage .cta-whole a.fs-4.modal-form-link {
+  font-size:25px!important
+}
+.homepage .cta-whole .large-arrow a .ion-ios-arrow-thin-right {
+  font-size:27px;
+  padding-left:7px
+}
+.homepage-header .normal-header-logo {
+  display:none!important
+}
+.homepage-header.fixed .normal-header-logo {
+  display:block!important
+}
+.homepage-header.fixed .fixed-header-logo {
+  display:none!important
+}
+.fixed-header-logo {
+  left:0;
+  position:absolute;
+  top:0
+}
+.header-group.homepage-header.fixed {
+  background:transparent
+}
+.homepage-header.fixed .header-shadow {
+  display:none
+}
+.homepage-header.fixed .nav-container {
+  margin-top:.5rem
+}
+.homepage-header.fixed .logo-wrap {
+  -ms-flex-item-align:flex-start!important;
+  align-self:flex-start!important
+}
+.homepage-wrapper .cta-whole .contact-cta-anchor-lg {
+  font-size:25px
+}
+.homepage-wrapper .cta-whole .contact-cta-anchor-lg a {
+  text-decoration:none
+}

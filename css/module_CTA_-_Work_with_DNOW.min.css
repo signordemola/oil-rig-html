@@ -1,0 +1,35 @@
+.bkgrd-image {
+  background-color:#ebebeb
+}
+.featured-product {
+  display:flex;
+  gap:0
+}
+.foreground-image-container {
+  display:flex;
+  flex-direction:column;
+  line-height:normal;
+  margin-left:0;
+  width:50%
+}
+.foreground-image {
+  aspect-ratio:1.2;
+  flex-grow:1;
+  object-fit:auto;
+  object-position:center;
+  width:100%
+}
+@media (max-width:991px) {
+  .featured-product {
+    align-items:stretch;
+    flex-direction:column;
+    gap:0
+  }
+  .foreground-image-container {
+    width:100%
+  }
+  .foreground-image {
+    margin-top:40px;
+    max-width:100%
+  }
+}

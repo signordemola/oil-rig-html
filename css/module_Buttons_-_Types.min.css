@@ -1,0 +1,38 @@
+.btn-buyOnline {
+  background-color:#f93;
+  border-color:#f93;
+  color:#212f36
+}
+.btn-buyOnline:hover {
+  background-color:#212f36;
+  border-color:#212f36;
+  color:#f93
+}
+.btn-ourLocations {
+  background-color:#366;
+  border-color:#465054;
+  color:#fff
+}
+.btn-ourLocations:hover {
+  background-color:#3d4348;
+  border-color:#465054;
+  color:#eef2f4
+}
+.button1,
+.button1:hover {
+  border-style:2px solid
+}
+.button4,
+.button4:hover {
+  border-radius:25rem;
+  border-style:2px solid
+}
+.horizontal-btn {
+  float:left;
+  padding:8px 8px 8px 0
+}
+@media only screen and (max-width:768px) {
+  .horizontal-btn {
+    float:none
+  }
+}
