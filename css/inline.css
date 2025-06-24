@@ -100,7 +100,7 @@ a.cta_button {
 .locations-button {
   font-family: Poppins, sans-serif;
   justify-content: center;
-  background-color: var(--Highlight-Red, #fa0000);
+  background-color: var(--Highlight-Red, #008040);
   color: var(--Lightest-Grey, #ebebeb);
   font-weight: 600;
   padding: 10px 42px;
@@ -111,7 +111,7 @@ a.cta_button {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #fa0000;
+  background: #008040;
   color: #fff;
   padding: 10px;
   z-index: 100;
@@ -228,7 +228,7 @@ a.cta_button {
   margin-top: 0;
 }
 .link:hover {
-  color: #fa0000;
+  color: #008040;
 }
 
 .secondary-links {
@@ -286,7 +286,7 @@ a.cta_button {
 }
 
 .social-icons a:hover svg {
-  fill: #fa0000; /* Change to red on hover */
+  fill: #008040; /* Change to red on hover */
 }
 .legal {
   display: flex;
@@ -1311,7 +1311,7 @@ a.cta_button {
 
 #hs_cos_wrapper_widget_1679111052744 .hs-image__grid__item__overlay {
   border-radius: 6px;
-  background-color: rgba(212, 39, 46, 1);
+  background-color: #66b280;
 }
 
 #hs_cos_wrapper_widget_1679111052744 .hs-image__grid__item__overlay__content,
@@ -1320,7 +1320,7 @@ a.cta_button {
 }
 
 #hs_cos_wrapper_widget_1679111052744 .hs-image__grid__item__overlay:hover {
-  background-color: rgba(212, 39, 46, 1);
+  background-color: #66b280;
   color: #ffffff;
 }
 

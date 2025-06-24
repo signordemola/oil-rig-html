@@ -19,7 +19,7 @@ stylesheets or you can add your own custom styles.
 }
 
 .body-container__homepage .dnd-section:nth-child(odd) {
-  background-color: #d4272e;
+  background-color: #008040;
 }
 
 @media (min-width: 576px) {
@@ -63,7 +63,7 @@ p {
 a {
   font-family: "Poppins", sans-serif;
   font-weight: 400; /* Standard weight for links to stand out slightly */
-  color: #fa0000; /* Default state color */
+  color: #008040; /* Default state color */
   font-size: 1rem; /* Ensures consistency with paragraph text */
   text-decoration: none; /* No underline by default */
   transition: color 0.3s; /* Smooth transition for hover effects */
@@ -71,7 +71,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #730000; /* Brighter color on hover/focus for visibility */
+  color: #66b280; /* Brighter color on hover/focus for visibility */
   text-decoration: underline; /* Adds underline on hover/focus for clarity */
 }
 
@@ -183,7 +183,7 @@ blockquote {
   flex-direction: column;
   line-height: normal;
   align-self: stretch;
-  color: var(--Highlight-Red, #fa0000);
+  color: var(--Highlight-Red, #008040);
   margin: auto 0px;
   padding: 20px 30px 0px 30px;
 }
@@ -201,7 +201,7 @@ blockquote {
   align-self: start;
   display: flex;
   padding-bottom: 5px;
-  color: var(--Highlight-Red, #fa0000);
+  color: var(--Highlight-Red, #008040);
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-style: normal;
@@ -213,7 +213,7 @@ blockquote {
   display: inline-block;
   width: 10px;
   height: 25px;
-  background-color: #fa0000; /* Highlight red for visibility */
+  background-color: #008040; /* Highlight red for visibility */
   margin-right: 15px; /* Spacing between the box and the text */
   vertical-align: middle; /* Aligns the box with the middle of the text line */
 }
@@ -221,7 +221,7 @@ blockquote {
   margin-top: 20px;
 }
 .lead {
-  color: var(--Highlight-Red, #fa0000);
+  color: var(--Highlight-Red, #008040);
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-style: normal;
@@ -233,7 +233,7 @@ blockquote {
   display: inline-block;
   width: 10px;
   height: 25px;
-  background-color: #fa0000; /* Highlight red for visibility */
+  background-color: #008040; /* Highlight red for visibility */
   margin-right: 15px; /* Spacing between the box and the text */
   vertical-align: middle; /* Aligns the box with the middle of the text line */
 }
@@ -333,7 +333,7 @@ input#hs-pwd-widget-password:focus {
 }
 
 .fn-date-picker td .pika-button:hover {
-  background-color: #d4272e !important;
+  background-color: #008040 !important;
 }
 
 th,
@@ -373,7 +373,7 @@ tbody + tbody {
 }
 
 .nav-search form button.search-submit {
-  color: rgba(212, 39, 46, 1);
+  color: #66b280;
 }
 
 .nav-search form button.search-submit:hover {
@@ -400,7 +400,7 @@ body .custom-menu-primary .submenu.level-1 > li > a:focus,
 .header__language-switcher .lang_list_class li a:focus,
 .header-menu ul li a:hover,
 header-menu ul li a:focus {
-  color: rgba(212, 39, 46, 1);
+  color: #66b280;
 }
 
 body .custom-menu-primary a.active-branch,
@@ -424,7 +424,7 @@ body .custom-menu-primary .submenu.level-1 > li > a.active-branch {
 }
 
 body .custom-menu-primary .submenu.level-1 > li > a.active-branch:hover {
-  color: rgba(212, 39, 46, 1);
+  color: #66b280;
 }
 
 body .custom-menu-primary .submenu.level-1 > li > a.active-branch:after {
@@ -451,7 +451,7 @@ body
   .triangle-container.level-2.hover
   .triangle {
   background-color: rgba(0, 0, 0, 0);
-  color: rgba(212, 39, 46, 1);
+  color: #66b280;
 }
 body .custom-menu-primary .submenu.level-2 .menu-item .menu-link.active-branch {
   color: rgba(33, 47, 54, 1);
@@ -530,7 +530,7 @@ body .custom-menu-primary .submenu.level-2 .menu-item .menu-link.active-branch {
 }
 
 .blog-post__author {
-  background-color: #d4272e;
+  background-color: #008040;
 }
 
 body .icon svg {
@@ -551,7 +551,7 @@ body .social-links__icon {
 }
 
 body .team-member__description {
-  background-color: #d4272e;
+  background-color: #008040;
 }
 
 .page-center {

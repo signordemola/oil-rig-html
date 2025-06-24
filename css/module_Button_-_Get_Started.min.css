@@ -1,18 +1,18 @@
-.cta-whole{
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    /*padding-right: 2rem;
+.cta-whole {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  /*padding-right: 2rem;
     border-radius: 2px;*/
-    background-color: #eef2f4;
+  background-color: #eef2f4;
 }
 /* class="cta-bar" controls background of Let's Get Started Button */
 .cta-whole .contact-cta-rep .cta-section .cta-bar {
   padding-top: 1.768em;
-  padding-bottom: 1.768em; 
+  padding-bottom: 1.768em;
   /*padding-right: 2rem;
   border-radius: 2px;*/
   background-color: #eef2f4;
- /* color:eef2f4;*/
+  /* color:eef2f4;*/
   position: relative;
   left: 0;
   right: 0;
@@ -25,7 +25,7 @@
   width: 94%;
   height: 2px;
   margin-left: 0;
-  background-color: #d4272e; 
+  background-color: #008040;
   border: 0 none;
 }
 .cta-whole .contact-cta-rep .cta-section .cta-bar #top-text {
@@ -33,15 +33,16 @@
   letter-spacing: 1.8px;
   text-transform: uppercase;
   font-weight: 700;
- /* color: #FFFFFF; */
+  /* color: #FFFFFF; */
 }
 .fs-4 {
- font-size: 1.563rem!important;
-/*  color:#eef2f4!important; */
+  font-size: 1.563rem !important;
+  /*  color:#eef2f4!important; */
 }
 .large-arrow a:hover .ion-ios-arrow-thin-right {
-  transition: transform .3s ease-in-out 0s;
-  transform: translateX(8px) translateY(0) translateZ(0) scaleX(1.25) scaleY(1.25) scaleZ(1);
+  transition: transform 0.3s ease-in-out 0s;
+  transform: translateX(8px) translateY(0) translateZ(0) scaleX(1.25)
+    scaleY(1.25) scaleZ(1);
 }
 .large-arrow a .ion-ios-arrow-thin-right {
   top: 8px;
@@ -55,9 +56,9 @@ a.fs-4.modal-form-link {
   display: inline-block;
   /*padding-right: 1rem;
   padding-left: .5rem;*/
-  font-family: Ionicons,sans-serif;
+  font-family: Ionicons, sans-serif;
   font-size: 150%;
-  transition: transform .3s ease-in-out 0s;
+  transition: transform 0.3s ease-in-out 0s;
   line-height: 0;
-/*  color: #eef2f4; */
+  /*  color: #eef2f4; */
 }

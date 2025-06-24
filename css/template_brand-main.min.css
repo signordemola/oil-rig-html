@@ -27,7 +27,7 @@
   src: url(https://www.dnow.com/hubfs/WC/Fonts/Poppins/Poppins-Semibold.ttf);
 }
 .cta-arrow-icon {
-  fill: var(--Highlight-Red, #fa0000);
+  fill: var(--Highlight-Red, #008040);
   height: 0.6rem;
   width: 0.6rem;
 }
@@ -247,10 +247,10 @@ summary {
   }
 }
 a.ul-red {
-  background-image: linear-gradient(0deg, #d4272e 1px, transparent 0);
+  background-image: linear-gradient(0deg, #008040 1px, transparent 0);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  color: #d4272e !important;
+  color: #008040 !important;
   cursor: pointer;
   font-weight: 500;
   text-decoration: none;
@@ -258,13 +258,13 @@ a.ul-red {
 }
 a.ul-red:hover {
   background-size: 25% 100%;
-  color: #d4272e;
+  color: #008040;
   text-decoration: none;
 }
 .brand-filters.btn.active {
-  background-color: #d4272e;
+  background-color: #008040;
   background-position: 0 100%;
-  border-color: #d4272e;
+  border-color: #008040;
   color: #fff;
 }
 .bootstrap-select.show > .dropdown-toggle {
@@ -275,9 +275,9 @@ a.ul-red:hover {
 }
 .dnowZoomIcon {
   background-color: #fff;
-  border: 1px solid #d4272e;
+  border: 1px solid #008040;
   border-radius: 50%;
-  color: #d4272e;
+  color: #008040;
   cursor: pointer;
   display: inline-block;
   height: 2.45rem;
@@ -1072,7 +1072,7 @@ fieldset:disabled a.btn {
 .button,
 .hs-button,
 button {
-  background-color: #fa0000;
+  background-color: #008040;
   border: none;
   border-radius: 5px;
   color: #fff;
@@ -1088,7 +1088,7 @@ button {
   white-space: normal;
 }
 button:hover {
-  background-color: #730000;
+  background-color: #66b280;
 }
 .button:disabled,
 .hs-button:disabled,
@@ -1399,8 +1399,8 @@ nav#dnow-nav .navbar-inner {
   vertical-align: middle;
 }
 .btn-primary {
-  background-color: #d4272e;
-  border-color: #d4272e;
+  background-color: #008040;
+  border-color: #008040;
   color: #fff;
 }
 .btn:hover {
@@ -1458,8 +1458,8 @@ nav#dnow-nav .navbar-inner {
     text-decoration: none;
   }
   .btn-primary {
-    background-color: #d4272e;
-    border-color: #d4272e;
+    background-color: #008040;
+    border-color: #008040;
     color: #fff;
   }
   .btn-primary:hover {
@@ -1525,7 +1525,7 @@ nav#dnow-nav .navbar-inner {
     text-decoration: none;
   }
   .slide-menu a:hover {
-    color: #d4272e;
+    color: #008040;
   }
   .slide-menu .next-control {
     cursor: pointer;
@@ -5327,7 +5327,7 @@ nav#dnow-nav .navbar-inner {
   border-left: 0 !important;
 }
 .border-primary {
-  border-color: #d4272e !important;
+  border-color: #008040 !important;
 }
 .border-secondary {
   border-color: #535a5a !important;
@@ -5681,7 +5681,7 @@ nav#dnow-nav .navbar-inner {
   list-style: none;
 }
 .page-link {
-  color: #d4272e;
+  color: #008040;
   display: block;
   line-height: 1.25;
   padding: 0.5rem 1rem;
@@ -5709,8 +5709,8 @@ nav#dnow-nav .navbar-inner {
   border-top-right-radius: 0.125rem;
 }
 .page-item.active .page-link {
-  background-color: #d4272e;
-  border-color: #d4272e;
+  background-color: #008040;
+  border-color: #008040;
   color: #fff;
   z-index: 1;
 }
@@ -5831,7 +5831,7 @@ span.font-weight-bold {
   text-decoration: none;
 }
 .hs-search-field__suggestions li:hover {
-  background-color: #d4272e;
+  background-color: #008040;
   color: #fff;
   outline: 0;
 }
@@ -5884,7 +5884,7 @@ span.font-weight-bold {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.125rem;
-  color: #d4272e;
+  color: #008040;
   display: inline-block;
   font-size: 1.25rem;
   font-weight: 400;
@@ -5912,7 +5912,7 @@ span.font-weight-bold {
   padding-top: 0;
 }
 .search-result-wrapper ul.hs-search-results__listing li a {
-  color: #d4272e;
+  color: #008040;
   font-family: inherit;
   font-size: inherit;
   margin: 0;
@@ -5921,7 +5921,7 @@ span.font-weight-bold {
   color: #931b20;
 }
 .hs-search-results__pagination a {
-  color: #d4272e !important;
+  color: #008040 !important;
   display: inline-block;
 }
 .hs_cos_wrapper_type_member_login .hs-form-field,
